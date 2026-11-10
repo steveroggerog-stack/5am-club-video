@@ -19,17 +19,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 8
-
-      - name: Install System Dependencies (FFmpeg & Chrome libs)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg libasound2 libatk-bridge2.0-0 libatk1.0-0 libcairo2 libcups2 libdrm2 libgbm1 libnss3 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libxshmfence1
+          version: 9
 
       - name: Install Project Dependencies
         run: pnpm install
