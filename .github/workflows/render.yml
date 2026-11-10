@@ -1,0 +1,47 @@
+name: Render Remotion Video
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  render:
+    name: Render 1080p Glow Vector Video
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: Install System Dependencies (FFmpeg & Chrome libs)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libasound2 libatk-bridge2.0-0 libatk1.0-0 libcairo2 libcups2 libdrm2 libgbm1 libnss3 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libxshmfence1
+
+      - name: Install Project Dependencies
+        run: pnpm install
+
+      - name: Render Remotion Video
+        run: |
+          mkdir -p out
+          pnpm exec remotion render GlowCinematic out/glow_cinematic_1080p.mp4 --gl=angle
+
+      - name: Upload Finished MP4 Video
+        uses: actions/upload-artifact@v4
+        with:
+          name: glow_cinematic_1080p_video
+          path: out/glow_cinematic_1080p.mp4
+          retention-days: 14
