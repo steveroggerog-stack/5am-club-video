@@ -8,7 +8,7 @@ export const Root: React.FC = () => {
       <Composition
         id="GlowCinematic"
         component={CinematicStory}
-        durationInFrames={720}
+        durationInFrames={3600}
         fps={30}
         width={1920}
         height={1080}

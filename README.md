@@ -1,44 +1,30 @@
-# 🌌 Cinematic Glow Vector Video (Remotion + GitHub Actions)
+# ⏰ 5 AM CLUB: A TRAGEDY (Remotion Glow Sketch & Vector Art)
 
-Cinematic **16:9 (1920x1080)** Code-to-Video project in **Glow Sketch & Vector Art** style with **Dynamic Motion Effects & Procedural SFX**.
-
----
-
-## 🎬 Story Breakdown (4 Acts - 24 Seconds, 30 FPS)
-1. **Act I: The Spark** (`0s - 6s`)
-   - Deep space void with floating embers.
-   - Sacred hexagonal geometry & neural circuits sketch themselves with electric cyan glow.
-   - Cinematic slow push-in zoom with electric arc SFX.
-2. **Act II: The Vector Entity** (`6s - 13s`)
-   - High-speed whoosh transition.
-   - Intricate cybernetic wings and diamond core draw symmetrically (Cyan + Neon Magenta + Gold).
-   - Sweeping camera pan and rotational sway.
-3. **Act III: Critical Surge** (`13s - 18s`)
-   - Concentric shockwave rings expand outward.
-   - Intense camera shake buildup and neon strobe flickering.
-   - Rising tension SFX audio buildup.
-4. **Act IV: Transcendence & Title** (`18s - 24s`)
-   - **Massive Sub-bass Slam / Boom!**
-   - Screen flash and decaying impact shockwave.
-   - Complete vector artwork locks in heavy bloom luminescence.
-   - Cinematic typography: **"GENESIS // THE VECTOR REALM AWAKENED"**.
+A hilarious 2-Minute Cinematic (16:9 1920x1080) Comedy Story in **Neon Glow Sketch + Vector Art** style with **Dynamic Motion Effects, Full Voiceover & SFX**.
 
 ---
 
-## ☁️ How to Render 100% Free on GitHub Cloud
+## 🎬 Story & Visual Breakdown (3600 Frames @ 30 FPS = 2 Minutes)
 
-### Step 1: Create a GitHub Repository
-1. Go to [github.com/new](https://github.com/new) and create a new repository (e.g. `glow-vector-video`).
+| Timecode | Scene Title | Glow Vector Art Elements | Motion Effects & Audio |
+|---|---|---|---|
+| **0:00–0:10** | **COLD OPEN** | 5:00 AM flashing red digital clock, stickman in bed with crazy neon hair, sleepy bird snoring Zzz, raccoon in kitchen holding a 30-year mortgage. | Slow creepy push-in zoom, whisper voiceover. |
+| **0:10–0:20** | **TITLE CARD** | Shattered alarm clock vector with flying lightning cracks & gears, massive neon graffiti **"5 AM CLUB: A TRAGEDY"**. | Violent snap zoom, camera shake, **Airhorn meme sound**! |
+| **0:20–0:50** | **DAY 1: THE MOTIVATION** | Glowing lemon water glass with straw, stickman in linen pants, journal opens: pen writes glowing *"Why?"*, stickman flatlines like a puddle on yoga mat with ECG heart line. | Camera zoom, chipper voiceover, flatline tone. |
+| **0:50–1:15** | **DAY 3: THE DECLINE** | "10:47 AM" glowing red timestamp, 3 giant coffee mugs with steaming neon spirals, hypno-eyes, stickman lovingly hugging a cute toaster with floating glowing hearts. | Twitchy coffee jitters, **toaster ding SFX**, toast pop-up. |
+| **1:15–1:40** | **DAY 5: THE COLLAPSE** | Office desk scene, glowing yellow sticky note on forehead: *"I'M THRIVING"*, coworker dialog, **HEAD SLAMS ONTO KEYBOARD**! | Screen shake slam, **head thud SFX**, keyboard typing clatter, endless `zzzzzz` spilling across terminal. |
+| **1:40–1:55** | **DAY 7: THE ENDING** | 5:00 AM alarm rings violently, slow-motion smartphone hurl across room into a sanctuary mountain of glowing pillows, peaceful creator wrapped in duvet with golden halo. | Smooth parabolic toss trajectory, alarm clock sound, serene voiceover. |
+| **1:55–2:00** | **OUTRO** | Glowing *"LIKE & SUBSCRIBE"* button, *"If you see me before 9 AM, pretend you don't know me"*, sudden smash cut to black. | Sharp cut to black + sudden loud alarm buzzer! |
 
-### Step 2: Push this project from Termux
-Inside this folder:
-```bash
-git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
-git push -u origin main
-```
+---
 
-### Step 3: Download your Rendered MP4
-1. Open your repository on GitHub.
-2. Tap on the **Actions** tab.
-3. The workflow **"Render Remotion Video"** will run automatically.
-4. Once completed (approx. 1-2 minutes), scroll to **Artifacts** at the bottom and download `glow_cinematic_1080p_video` (.mp4)!
+## ☁️ How to Render 100% Free on GitHub Cloud (1-Click)
+
+1. **Create a GitHub Repo:** Go to [github.com/new](https://github.com/new) and make a new repo (e.g. `5am-club-remotion`).
+2. **Push from Termux:**
+   ```bash
+   cd /data/user/0/com.termux/files/home/.gemini/antigravity-cli/scratch/remotion-glow-vector
+   git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
+   git push -u origin main
+   ```
+3. **Download Video:** Go to your repo's **Actions** tab on GitHub. In ~2 minutes, download the ready-to-watch **`glow_cinematic_1080p_video.mp4`** artifact!
